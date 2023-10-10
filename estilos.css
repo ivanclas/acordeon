@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el campo de entrada */
+input[type="text"][name="mes"] {
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Estilos para la lista desplegable */
+#meses option {
+    padding: 5px;
+}
+
+/* Estilos para el acordeón */
+details.bienvenido {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px green;
+    padding: 5px;
+    background: green;
+    color: white;
+}
+
+/* Estilos para el botón popover */
+button[popovertarget="ventana"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para la ventana popover */
+.ventana[popover] {
+    width: 30%;
+    padding: 10px;
+    background: brown;
+    color: white;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0px 0px 20px 15px green;
+}
+
+/* Estilos para el título de la ventana popover */
+.ventana[popover] h1 {
+    margin: 0;
+    padding: 5px;
+}
+
+/* Estilos para el contenido del acordeón */
+details.bienvenido p {
+    margin: 10px 0;
+}
+
+/* Estilos para el título del acordeón */
+details.bienvenido h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 5px;
+}
